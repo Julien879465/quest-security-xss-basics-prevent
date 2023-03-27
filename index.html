@@ -43,7 +43,7 @@
 
         const input = document.getElementById("token-question");
         const log = document.getElementById("token-answer");
-
+        document.getElementById("token-question").textContent = document.baseURI
         input.addEventListener("input", updateValue);
 
         function updateValue(e) {
